@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Roboto Serif', serif;
+  background: linear-gradient(-45deg, rgb(8, 231, 108), rgb(10, 220, 239), rgb(29, 109, 229), rgb(167, 24, 233), rgb(215, 17, 152));
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+.box {
+  background: white;
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  margin-top: 5rem;
+  border-radius: 5px;
+}
+
+
+.text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem
+}
+
+.name{
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 0;
+  font-size: 4rem;
+  color: rgb(233, 12, 211);
+  font-weight: bolder;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  animation: anim linear 4s infinite;
+}
+
+@keyframes anim {
+  0%{
+    transform: scale(1);
+    color: aqua;
+    text-shadow: 4px 4px 4px rgb(8, 16, 238);
+  }
+  50% {
+    transform: scale(1.4);
+    color: aquamarine;
+    text-shadow: 5px 5px 5px rgb(8, 238, 127);
+  }
+
+  0% {
+    transform: scale(1);
+    color: rgb(16, 164, 232);
+  }
+}
+
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.author:hover{
+  text-shadow: 5px 5px 5px rgb(59, 58, 58);
+}
+
+hr {
+  height: 2.5px;
+  background-color: black;
+
+}
+
+hr:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.social_media>a {
+  margin-right: 0.5rem;
+  background: rgb(254, 254, 254);
+  padding: .3rem .3rem;
+  cursor: pointer;
+}
+
+.fas, .fab{
+  font-size: 2rem;
+  border:2.5px solid black;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 3.5px;
+}
+
+.fas:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(92, 89, 89);
+  transform: scale(1.2);
+}
+
+.fab:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(92, 89, 89);
+  transform: scale(1.2);
+}
+
+.social_media {
+  display: flex;
+
+}
+
+
+
+.new_quote {
+  background: rgb(9, 140, 200);
+  border: none;
+  color: #fff;
+  padding: .7rem 1.5rem;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.new_quote:hover {
+  background-color: rgb(180, 23, 224);
+  color: white;
+  padding: 0.8rem 1.6rem;
+}
+
+.day {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
